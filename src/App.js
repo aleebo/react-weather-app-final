@@ -16,8 +16,9 @@ export default function App() {
             rel="noreferrer"
           >
             {" "}
-            open-sourced on Github and
-          </a>
+            open-sourced on Github
+          </a>{" "}
+          and
           <a
             href="https://stoic-tereshkova-5e23b5.netlify.app"
             target="_blank"
