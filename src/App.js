@@ -17,6 +17,7 @@ function App() {
         <a
           href="https://github.com/aleebo/react-weather-app-final"
           target="_blank"
+          rel="noreferrer"
         >
           open-sourced on Github.
         </a>
