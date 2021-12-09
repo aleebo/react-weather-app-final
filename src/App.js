@@ -1,29 +1,23 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Weather App</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
-      </header>
-      <h3>
-        This project is created by Alicia Vuong and is{" "}
-        <a
-          href="https://github.com/aleebo/react-weather-app-final"
-          target="_blank"
-          rel="noreferrer"
-        >
-          open-sourced on Github.
-        </a>
-      </h3>
+      <div className="container">
+        <h1></h1>
+        <Weather city="New York" />
+        <footer>
+          This project is coded by Alicia Vuong and is
+          <a
+            href="https://github.com/aleebo/react-weather-app-project-one"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            open-sourced on Github.
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
